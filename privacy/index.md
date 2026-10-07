@@ -4,7 +4,7 @@ title: Chính sách quyền riêng tư — Ngủ Ngon Học Giỏi
 
 # Chính sách quyền riêng tư — Ngủ Ngon Học Giỏi
 
-Cập nhật: 07/10/2026
+Nhà phát triển: TRINHNN · Cập nhật: 07/10/2026
 
 Ngủ Ngon Học Giỏi ("ứng dụng") được làm để giúp bạn ngủ ngon và học tập trung. Chúng tôi không có máy chủ riêng, không có tài khoản đăng nhập, không theo dõi và không bán dữ liệu của bạn.
 
