@@ -4,7 +4,7 @@ title: Chính sách quyền riêng tư — Ngủ Ngon Học Giỏi
 
 # Chính sách quyền riêng tư — Ngủ Ngon Học Giỏi
 
-Nhà phát triển: TRINHNN · Cập nhật: 07/10/2026
+Nhà phát triển: TRINHNN · Cập nhật: 07/10/2026 (bổ sung Keychain)
 
 Ngủ Ngon Học Giỏi ("ứng dụng") được làm để giúp bạn ngủ ngon và học tập trung. Chúng tôi không có máy chủ riêng, không có tài khoản đăng nhập, không theo dõi và không bán dữ liệu của bạn.
 
@@ -24,7 +24,7 @@ Ngủ Ngon Học Giỏi ("ứng dụng") được làm để giúp bạn ngủ n
 
 - **Trên thiết bị của bạn**, trong vùng lưu trữ riêng (App Group) dùng chung giữa ứng dụng và widget của nó.
 - **Trong iCloud của chính bạn** (CloudKit, cơ sở dữ liệu riêng tư): câu nói tự thêm, trạng thái yêu thích/ẩn và lịch sử phiên học được đồng bộ giữa các thiết bị đăng nhập cùng Apple ID. Dữ liệu này nằm trong tài khoản iCloud của bạn; nhà phát triển không đọc được. Nếu bạn không đăng nhập iCloud, dữ liệu chỉ nằm trên thiết bị.
-- Cài đặt và ngày bắt đầu dùng thử chỉ nằm trên thiết bị, không đồng bộ.
+- Cài đặt và ngày bắt đầu dùng thử chỉ nằm trên thiết bị, không đồng bộ. Ngày bắt đầu dùng thử được lưu thêm trong Keychain của thiết bị (chỉ thiết bị này, không đồng bộ iCloud) để tính đúng 7 ngày dùng thử kể cả khi bạn xoá rồi cài lại ứng dụng.
 
 ## Dữ liệu rời khỏi thiết bị khi nào
 
@@ -38,7 +38,7 @@ Chỉ trong hai trường hợp:
 ## Xoá dữ liệu
 
 - Xoá từng câu tự thêm trong Kho câu nói (vuốt sang trái → Xoá).
-- Xoá ứng dụng để xoá mọi dữ liệu trên thiết bị.
+- Xoá ứng dụng để xoá dữ liệu trên thiết bị. Riêng ngày bắt đầu dùng thử trong Keychain vẫn còn sau khi xoá ứng dụng (đây là một mốc thời gian, không chứa thông tin cá nhân); nó bị xoá khi bạn đặt lại thiết bị (Cài đặt → Cài đặt chung → Chuyển hoặc đặt lại iPhone → Xoá tất cả nội dung và cài đặt).
 - Xoá dữ liệu đã đồng bộ trong iCloud: Cài đặt → [tên bạn] → iCloud → Quản lý dung lượng → Ngủ Ngon Học Giỏi → Xoá dữ liệu.
 
 ## Trẻ em
@@ -60,6 +60,6 @@ Câu hỏi về quyền riêng tư: [trang hỗ trợ](../support/).
 Last updated: October 7, 2026
 
 - **What the app stores:** quotes you add, favorite/hidden flags on quotes, study-session history (start time, minutes), settings (last sound and sleep timer), and your free-trial start date. No name, email, location, contacts, photos, microphone or advertising identifier.
-- **Where it is stored:** on your device in the app's App Group container (shared with its widget), and — for your quotes, favorite/hidden flags and study sessions — in your own iCloud private database via CloudKit. The developer cannot read it. Without iCloud, data stays on the device.
+- **Where it is stored:** on your device in the app's App Group container (shared with its widget), and — for your quotes, favorite/hidden flags and study sessions — in your own iCloud private database via CloudKit. The developer cannot read it. Without iCloud, data stays on the device. The trial start date is also kept in this device's Keychain (not synced) so the 7-day trial is counted correctly after reinstalling.
 - **When data leaves your device:** only to your iCloud (sync) and to Apple when you buy or restore purchases through the App Store (StoreKit). No developer servers, no third parties, no analytics, no ads, no tracking.
-- **Deleting data:** delete your quotes in the app, delete the app to remove on-device data, and remove synced data in Settings → [your name] → iCloud → Manage Storage → Ngủ Ngon Học Giỏi.
+- **Deleting data:** delete your quotes in the app, delete the app to remove on-device data (the trial start date in the Keychain remains until the device is erased), and remove synced data in Settings → [your name] → iCloud → Manage Storage → Ngủ Ngon Học Giỏi.
