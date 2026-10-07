@@ -1,8 +1,8 @@
 ---
-title: Ngủ Ngon Học Giỏi
+title: Lullwise
 ---
 
-# Ngủ Ngon Học Giỏi
+# Lullwise
 
 - [Chính sách quyền riêng tư](privacy/)
 - [Hỗ trợ](support/)

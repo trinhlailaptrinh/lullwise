@@ -1,12 +1,12 @@
 ---
-title: Chính sách quyền riêng tư — Ngủ Ngon Học Giỏi
+title: Chính sách quyền riêng tư — Lullwise
 ---
 
-# Chính sách quyền riêng tư — Ngủ Ngon Học Giỏi
+# Chính sách quyền riêng tư — Lullwise
 
-Nhà phát triển: TRINHNN · Cập nhật: 07/10/2026 (bổ sung Keychain)
+Nhà phát triển: TRINHNN · Cập nhật: 07/10/2026 (bổ sung Keychain) · Bản công khai: https://trinhlailaptrinh.github.io/lullwise/privacy/
 
-Ngủ Ngon Học Giỏi ("ứng dụng") được làm để giúp bạn ngủ ngon và học tập trung. Chúng tôi không có máy chủ riêng, không có tài khoản đăng nhập, không theo dõi và không bán dữ liệu của bạn.
+Lullwise ("ứng dụng") được làm để giúp bạn ngủ ngon và học tập trung. Chúng tôi không có máy chủ riêng, không có tài khoản đăng nhập, không theo dõi và không bán dữ liệu của bạn.
 
 ## Dữ liệu ứng dụng lưu
 
@@ -39,7 +39,7 @@ Chỉ trong hai trường hợp:
 
 - Xoá từng câu tự thêm trong Kho câu nói (vuốt sang trái → Xoá).
 - Xoá ứng dụng để xoá dữ liệu trên thiết bị. Riêng ngày bắt đầu dùng thử trong Keychain vẫn còn sau khi xoá ứng dụng (đây là một mốc thời gian, không chứa thông tin cá nhân); nó bị xoá khi bạn đặt lại thiết bị (Cài đặt → Cài đặt chung → Chuyển hoặc đặt lại iPhone → Xoá tất cả nội dung và cài đặt).
-- Xoá dữ liệu đã đồng bộ trong iCloud: Cài đặt → [tên bạn] → iCloud → Quản lý dung lượng → Ngủ Ngon Học Giỏi → Xoá dữ liệu.
+- Xoá dữ liệu đã đồng bộ trong iCloud: Cài đặt → [tên bạn] → iCloud → Quản lý dung lượng → Lullwise → Xoá dữ liệu.
 
 ## Trẻ em
 
@@ -51,15 +51,15 @@ Khi chính sách thay đổi, chúng tôi cập nhật trang này và ngày cậ
 
 ## Liên hệ
 
-Câu hỏi về quyền riêng tư: [trang hỗ trợ](../support/).
+Câu hỏi về quyền riêng tư: [trang hỗ trợ](../support/)
 
 ---
 
-# Privacy Policy — Ngủ Ngon Học Giỏi (English summary)
+# Privacy Policy — Lullwise (English summary)
 
 Last updated: October 7, 2026
 
 - **What the app stores:** quotes you add, favorite/hidden flags on quotes, study-session history (start time, minutes), settings (last sound and sleep timer), and your free-trial start date. No name, email, location, contacts, photos, microphone or advertising identifier.
 - **Where it is stored:** on your device in the app's App Group container (shared with its widget), and — for your quotes, favorite/hidden flags and study sessions — in your own iCloud private database via CloudKit. The developer cannot read it. Without iCloud, data stays on the device. The trial start date is also kept in this device's Keychain (not synced) so the 7-day trial is counted correctly after reinstalling.
 - **When data leaves your device:** only to your iCloud (sync) and to Apple when you buy or restore purchases through the App Store (StoreKit). No developer servers, no third parties, no analytics, no ads, no tracking.
-- **Deleting data:** delete your quotes in the app, delete the app to remove on-device data (the trial start date in the Keychain remains until the device is erased), and remove synced data in Settings → [your name] → iCloud → Manage Storage → Ngủ Ngon Học Giỏi.
+- **Deleting data:** delete your quotes in the app, delete the app to remove on-device data (the trial start date in the Keychain remains until the device is erased), and remove synced data in Settings → [your name] → iCloud → Manage Storage → Lullwise.
