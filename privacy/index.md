@@ -4,7 +4,7 @@ title: Chính sách quyền riêng tư — Lullwise
 
 # Chính sách quyền riêng tư — Lullwise
 
-Nhà phát triển: TRINHNN · Cập nhật: 08/10/2026 (bổ sung thẻ ôn tập và lời nhắc) · Bản công khai: https://trinhlailaptrinh.github.io/lullwise/privacy/
+Nhà phát triển: TRINHNN · Cập nhật: 08/10/2026 (bổ sung thẻ ôn tập, ảnh trong thẻ và lời nhắc) · Bản công khai: https://trinhlailaptrinh.github.io/lullwise/privacy/
 
 Lullwise ("ứng dụng") được làm để giúp bạn ngủ ngon và học tập trung. Chúng tôi không có máy chủ riêng, không có tài khoản đăng nhập, không theo dõi và không bán dữ liệu của bạn.
 
@@ -15,12 +15,12 @@ Lullwise ("ứng dụng") được làm để giúp bạn ngủ ngon và học t
 | Câu nói bạn tự thêm | Hiện trong Kho câu nói và widget |
 | Trạng thái yêu thích / ẩn của từng câu | Lọc câu, chọn câu cho widget |
 | Lịch sử phiên học (thời điểm bắt đầu, số phút) | Thống kê giờ học hôm nay và 7 ngày |
-| Thẻ ôn tập bạn tự ghi (câu hỏi, đáp án) | Ôn trước khi ngủ và kiểm tra buổi sáng |
+| Thẻ ôn tập bạn tự ghi (câu hỏi, đáp án, môn học, mẹo nhớ, ảnh minh hoạ nếu bạn thêm) | Ôn trước khi ngủ và kiểm tra buổi sáng |
 | Lịch sử ôn (thời điểm ôn, nhớ hay chưa nhớ) | Lịch ôn giãn cách và báo cáo tuần |
 | Cài đặt: âm thanh, hẹn giờ tắt, âm thanh nền khi tập trung, giờ nhắc | Mở lại đúng lựa chọn lần trước |
 | Ngày bắt đầu dùng thử | Tính 7 ngày dùng thử miễn phí |
 
-Ứng dụng không thu thập tên, email, số điện thoại, vị trí, danh bạ, ảnh, micro hay mã định danh quảng cáo.
+Ứng dụng không thu thập tên, email, số điện thoại, vị trí, danh bạ, micro hay mã định danh quảng cáo. Ứng dụng không đọc thư viện ảnh của bạn: chỉ những ảnh bạn tự chọn (qua bộ chọn ảnh của hệ thống) hoặc tự chụp cho một thẻ mới được lưu, sau khi thu nhỏ. Camera chỉ bật khi bạn bấm Chụp ảnh trong thẻ.
 
 ## Dữ liệu được lưu ở đâu
 
@@ -63,7 +63,7 @@ Câu hỏi về quyền riêng tư: [trang hỗ trợ](../support/)
 
 Last updated: October 7, 2026
 
-- **What the app stores:** quotes you add, favorite/hidden flags on quotes, study-session history (start time, minutes), study cards you write (question, answer) and review history (when, remembered or not), settings (sounds, sleep timer, focus sound, reminder times), and your free-trial start date. No name, email, location, contacts, photos, microphone or advertising identifier.
+- **What the app stores:** quotes you add, favorite/hidden flags on quotes, study-session history (start time, minutes), study cards you write (question, answer, subject, memory hint, and a picture if you add one — only photos you pick or take for a card; the app never reads your photo library) and review history (when, remembered or not), settings (sounds, sleep timer, focus sound, reminder times), and your free-trial start date. No name, email, location, contacts, photos, microphone or advertising identifier.
 - **Where it is stored:** on your device in the app's App Group container (shared with its widget), and — for your quotes, favorite/hidden flags, study sessions, study cards and review history — in your own iCloud private database via CloudKit. Evening and morning reminders are local notifications created on your device; the weekly report is calculated on your device. The developer cannot read it. Without iCloud, data stays on the device. The trial start date is also kept in this device's Keychain (not synced) so the 7-day trial is counted correctly after reinstalling.
 - **When data leaves your device:** only to your iCloud (sync) and to Apple when you buy or restore purchases through the App Store (StoreKit). No developer servers, no third parties, no analytics, no ads, no tracking.
 - **Deleting data:** delete your quotes in the app, delete the app to remove on-device data (the trial start date in the Keychain remains until the device is erased), and remove synced data in Settings → [your name] → iCloud → Manage Storage → Lullwise.
